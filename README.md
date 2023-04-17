@@ -109,6 +109,8 @@ profiling result
 
 ![img_4.png](img_4.png)
 
+![image](https://user-images.githubusercontent.com/28300167/229501053-4e33b6fb-851a-4fb2-9b19-16308359f57e.png)
+
 #### The system running environment
 
 java jdk8
@@ -119,7 +121,7 @@ Runing config
 
 (1)Run the SQL files in the SQL directory in the database, create database and tables
 
-(2)download the release jar(https://github.com/zhugezifang/dataCompare/releases) or build jar using the source code of the project
+(2)build jar using the source code of the project: mvn clean package -Dmaven.test.skip=true -Ptest
 
 (3)edit database config information of application.yml
 
